@@ -1,0 +1,62 @@
+body {
+	width: 100%;
+	height: 100%;
+}
+header {
+	display: flex;
+	justify-content: center;
+
+}
+h2 {
+	margin-top: 10px;
+	width: 300px;
+	text-align: center;
+	border-radius: 20px;
+	background-color: rgba(255, 0, 0, 0.5);
+	color: green;
+	padding: 10px;
+	font-size: 4em;
+	cursor: pointer;
+}
+h2:hover {
+	background-color: rgba(0, 255, 0, 0.5);
+	box-shadow: 5px 5px 5px gray;
+	-moz-box-shadow: 5px 5px 5px gray;
+	-ms-box-shadow: 5px 5px 5px gray;
+	-webkit-box-shadow: 5px 5px 5px gray;
+	-o-box-shadow: 5px 5px 5px gray;
+	color: red;
+}
+
+.sorpus{
+	font-family: 'Indie Flower', cursive;
+	text-shadow: 7px 7px 7px gray;
+	-moz-text-shadow: 7px 7px 7px gray;
+	-ms-text-shadow: 7px 7px 7px gray;
+	-webkit-text-shadow: 7px 7px 7px gray;
+	-o-text-shadow: 5px 5px 5px gray;
+	cursor: pointer;
+}
+
+.text {
+	display: grid;
+	justify-content: center;
+	text-transform: capitalize;
+	font-family: 'Permanent Marker', cursive;
+}
+.lead {
+
+}
+
+.heart {
+	text-align: center;
+	font-size: 2em;
+	font-family: 'Indie Flower', cursive;
+}
+
+.jumbotron {
+	background-image: url(https://unsplash.com/photos/SKlwtMS_7hI);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
